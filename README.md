@@ -1,13 +1,16 @@
 # bash-history-tweak
+
+# REVISION
 25 JAN 2015, @xenfomation
 thexenfomation@gmail.com | http://xenfomation.noip.me
 
-WHAT IS THIS?
-~~~~~~~~~~~~~
+# WHAT IS THIS?
 A series of tweaks to the global BASH profile and HISTORY options: intended for XenServer(s) running 6.0.2 or higher.
 
-WHAT DOES IT DO?
-~~~~~~~~~~~~~~~~
+# WHY WAS THIS MADE?
+The reason behind all this is, at the moment, XenServer does not use shadow passwords and essentially everything is ran as "root".  In an environment where many may have these types of credentials, it is nice to know WHO, WHAT, WHEN, WHERE, and FROM to determine any negative "WHY".
+
+# WHAT DOES IT DO?
 For XenServer, the "BASH & HISTORY Tweaks" are intended to do the following:
 - Add logging of user history to Syslog
 - Adjust BASH color usage as so the blue coloring of directories is no black-on-white, followed by a trailing "/"
@@ -19,8 +22,7 @@ low-level audit trailing:
 - /etc/DIR_COLORS
 - /etc/bashrc
 
-HOW DO I USE IT?
-~~~~~~~~~~~~~~~~
+# HOW DO I USE IT?
 Download the bash-history-tweak.tar file.
 Upload it to the /root/ directory of each XenServer.
 Execute tar -xvf bash-history-tweak.tar (creating a sub-directory of "bash-history-tweak/")
@@ -30,7 +32,4 @@ Execute the install.sh script (or uninstaller if you want to remove the changes)
 Exit the current BASH session by typing exit
 Log back in
 
-WHY WAS THIS MADE?
-~~~~~~~~~~~~~~~~~~
-The reason behind all this is, at the moment, XenServer does not use shadow passwords and essentially everything is ran as "root".  In an environment where many may have these types of credentials, it is nice to know WHO, WHAT, WHEN, WHERE, and FROM to determine any negative "WHY".
 
