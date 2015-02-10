@@ -1,7 +1,7 @@
 # bash-history-tweak
 
 # REVISION
-25 JAN 2015, @xenfomation
+25 JAN 2015, JK Benedict
 thexenfomation@gmail.com | @xenfomation
 
 # WHAT IS THIS?
@@ -22,4 +22,4 @@ For XenServer, the "BASH Tweak" is intended to do the following:
 * Exit the current BASH session by typing exit
 * Log back in
 
-
+And from this point, history commands are logged to /var/log/user.log and the history command should be colorful and insightful.
