@@ -1,6 +1,5 @@
 
 
-
 ##[ HISTORY LOGGING ]########################################################
 #
 # ADD USER LOGGING AND HISTORY COMMAND CONTEXT FOR SOME AUDITING
